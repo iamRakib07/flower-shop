@@ -1,0 +1,40 @@
+* {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+.banner{
+    width: 1700px;
+    height: 850px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.div-text{
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+.ban-text{
+    color: #332323;
+    font-weight: 800;
+    font-size: 80px;
+}
+p{
+    color: rgb(28, 13, 13);
+    font-size: 20px;
+}
+.ban-imag{
+    width: 635px;
+    height: 750px;
+    margin-bottom: 0px;
+}
+.first-btn{
+    border-radius: 8px;
+    border: 0px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: white;
+}
