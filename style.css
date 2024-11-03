@@ -2,22 +2,32 @@
     font-family: "Lato", sans-serif;
     margin: 0;
 }
-
+body{
+    max-width: 1920px;
+    margin: auto;
+}
 .banner{
     width: 1700px;
     height: 850px;
-    background-color: lightpink;
+    background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
 }
+
 .div-text{
+    
     margin-top: 100px;
     padding-bottom: 80px;
 }
+.div-text p{
+    margin-bottom: 25px;
+
+}
 .ban-text{
+    margin-bottom: 25px;
     color: #332323;
     font-weight: 800;
     font-size: 80px;
@@ -31,10 +41,70 @@ p{
     height: 750px;
     margin-bottom: 0px;
 }
-.first-btn{
+.its-btn{
     border-radius: 8px;
     border: 0px;
     background: #E55473;
     padding: 20px 43px;
     color: white;
+}
+.second-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.f-container{
+    display: flex;
+    justify-content: center;
+   gap: 25px;
+   margin: 100px 240px 30px 240px;
+
+}
+.ff-img-text-cnt{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+.service-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0px 40px;
+    border-radius: 10px;
+     background: rgba(39, 39, 39, 0.05);
+     padding: 85px 200px;
+     margin: 80px;
+     font-weight: 600;
+
+}
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    
+}
+.sign-up-text h2{
+    margin-bottom: 25px;
+}
+.sign-up-text p{
+    margin-bottom: 25px;
+}
+.instagram{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.instagram-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
