@@ -7,7 +7,7 @@ body{
     margin: auto;
 }
 .banner{
-    width: 1700px;
+    width: 1920px;
     height: 850px;
     background: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -36,10 +36,13 @@ p{
     color: rgb(28, 13, 13);
     font-size: 20px;
 }
-.ban-imag{
+.ban-image{
     width: 635px;
-    height: 750px;
-    margin-bottom: 0px;
+height: 800px;
+flex-shrink: 0;
+
+
+
 }
 .its-btn{
     border-radius: 8px;
@@ -55,12 +58,48 @@ p{
     align-items: center;
 
 }
+.second-text h3{
+    font-size: 40px;
+    color: #272727;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.second-text p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
 .f-container{
     display: flex;
     justify-content: center;
    gap: 25px;
    margin: 100px 240px 30px 240px;
 
+}
+.flower-1{
+    width: 464px;
+height: 538px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+
+}
+.flower-2{
+    width: 494px;
+height: 538px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.flower-3{
+    width: 464px;
+height: 538px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
 }
 .ff-img-text-cnt{
     display: flex;
@@ -89,7 +128,18 @@ p{
 }
 .sign-up-text h2{
     margin-bottom: 25px;
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
 }
+span{
+    color:  #E55473;
+     
+ }
 .sign-up-text p{
     margin-bottom: 25px;
 }
@@ -107,4 +157,105 @@ p{
     gap: 25px;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.instagram h2{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 25px;
+}
+.subs-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 1420px;
+    height: 449px;
+   margin-left: 290px;
+}
+.subs-area{
+    row-gap: 25px;
+}
+.subs-text h3{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.subs-text p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-bottom: 25px;
+}
+.subs-area input{
+    width: 700px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+}
+.Footer{
+    background: #111010;
+    margin-top: 100px;
+    width: 2050px;
+    height: 449px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flower{
+        color: #E55473;
+    
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.shop{
+    color: #FFF;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+
+}
+.f-area{
+    margin-bottom: 30px;
+}
+.Footer p{
+    color: rgba(255, 255, 255, 0.90);
+
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 30px;
+}
+.Footer h6{
+    color: rgba(255, 255, 255, 0.40);
+
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
 }
